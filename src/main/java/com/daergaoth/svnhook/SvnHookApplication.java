@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SvnHookApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SvnHookApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SvnHookApplication.class, args);
+    }
 
 }

@@ -1,4 +1,4 @@
-package com.daergaoth.svnhookdemo.controller;
+package com.daergaoth.svnhook.controller;
 
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
