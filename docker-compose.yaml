@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  unityServer:
+    image: daergaothdev/svnhook-server:latest
+    volumes:
+      - svnhook_data:/var/www/html
+    ports:
+      - "8080:8080"
+    restart: on-failure
+volumes:
+  svnhook_data: {}
